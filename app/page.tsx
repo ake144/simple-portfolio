@@ -2,7 +2,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { TechStack } from "@/components/tech-stack"
 import { SocialLinks } from "@/components/social-links"
 import { AboutMe } from "@/components/about-me"
-import { Experience } from "@/components/experience"
+import { Experience } from "@/components/exprience"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           <ModeToggle />
         </div>
       </header>
-      <main className="container py-8 md:py-12">
+      <main className="container  py-8 md:py-12">
         <AboutMe />
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           <div className="space-y-8">
